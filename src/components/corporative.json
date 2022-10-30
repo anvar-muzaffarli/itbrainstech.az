@@ -1,0 +1,37 @@
+[
+   {
+    "id":1,
+    "service_name": "Şəbəkə və sistem",
+    "description": "lorem ipsum dolar sit amet sjsdj",
+    "icon": "🚙",
+    "collapseId":"#collapseOne"
+   },
+   {
+    "id":2,
+    "service_name": "Veb tətbiqlərin hazırlanması",
+    "description": "lorem ipsum dolar sit amet sjsdj",
+    "icon": "🚙",
+    "collapseId":"#collapseTwo"
+   },
+   {
+    "id":3,
+    "service_name": "Rəqəmsal marketinq",
+    "description": "lorem ipsum dolar sit amet sjsdj",
+    "icon": "🚙",
+    "collapseId":"#collapseThree"
+   },
+   {
+    "id":4,
+    "service_name": "Qrafik & Motion dizayn",
+    "description": "lorem ipsum dolar sit amet sjsdj",
+    "icon": "🚙",
+    "collapseId":"#collapseFour"
+   },
+   {
+    "id":5,
+    "service_name": "Texniki dəstək",
+    "description": "lorem ipsum dolar sit amet sjsdj",
+    "icon": "🚙",
+    "collapseId":"#collapseFive"
+   }
+]
