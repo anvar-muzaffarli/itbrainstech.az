@@ -13,8 +13,8 @@ const Navbarr = () => {
   const showDrop = (e) => {
     const clickedItem = e.target
 
-    if(clickedItem.classList.contains('dropdown-toggle')) {
-      dropRef.classList.toggle('show')
+    if(clickedItem.classNameList.contains('dropdown-toggle')) {
+      dropRef.classNameList.toggle('show')
     }
   }
 
@@ -22,39 +22,40 @@ const Navbarr = () => {
  
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light border-rad">
-  <a class="navbar-brand" href="#"><img src={logo} alt="" width={141}/></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span><HiBars3CenterLeft /></span>
-  </button>
+    <nav className="navbar navbar-expand-lg navbar-light border-rad">
+    <Link className="navbar-brand" to="welcome"><img src={logo} alt="" width={151} /></Link>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav ml-auto">
+        <li className="nav-item active">
+          <Link className="nav-link" to="welcome">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="about">About</Link>
+        </li>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item cursor-pointer">
-        <Link class="nav-link " to="#">Ana səhifə <span class="sr-only">(current)</span></Link>
-      </li>
-      <li class="nav-item cursor-pointer">
-        <Link className="nav-link nav-link" to="features" spy={true} smooth={true} offset={50} duration={500}> Haqqımızda</Link>
-      </li>
-      <li class="nav-item dropdown cursor-pointer">
-        <Link class="nav-link dropdown-toggle" onClick={showDrop} to="#" spy={true} smooth={true} offset={50} duration={500} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Xidmətlərimiz
-        </Link>
-        <div class="dropdown-menu" ref={dropRef} aria-labelledby="navbarDropdown">
-          <Link class="dropdown-item cursor-pointer" to="custom" spy={true} smooth={true} offset={100} duration={500}>Fərdi</Link>
-          <Link  class="dropdown-item cursor-pointer" to="corporative" >Korporativ</Link>
+        <li className="nav-item dropdown">
+          <Link className="nav-link dropdown-toggle" onClick={showDrop} to="services" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </Link>
+          <div className="dropdown-menu" ref={dropRef} aria-labelledby="navbarDropdownMenuLink">
+            <Link className="dropdown-item" to="custom">Custom</Link>
+            <Link className="dropdown-item" to="corporative">Corporative</Link>
+          </div>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="testimonials">Testimonials</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="contact">Contact us</Link>
+        </li>
         
-        </div>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Əlaqə</a>
-      </li>
-     
-    </ul>
-  
-  </div>
-</nav>
+      
+      </ul>
+    </div>
+  </nav>
   )
 }
 

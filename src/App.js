@@ -12,8 +12,7 @@ import Navbarr from './components/Navbarr';
 import Welcome from './components/Welcome';
 import CardsSection from './components/CardsSection';
 import About from './components/About';
-import Accordion from './components/Accordion';
-import AccordionCorporative from './components/AccordionCorporative';
+
 
 import Counter from './components/Counter';
 import ContactUs from './components/ContactUs';
@@ -31,8 +30,7 @@ function App() {
   <CardsSection />
   <About />
 
-  <Accordion />
-  <AccordionCorporative />
+ 
 
   <Feedback />
     

@@ -8,11 +8,12 @@
     border-radius:80px;
     background-color: #fff;
     position: fixed !important;
-    width: 100%;
+    width: 95%;
     box-shadow: 12px 10px 35px rgba(0,0,0,0.1);
     height: 80px;
     top: 4%;
     z-index: 9999;
+    margin:0 15px;
 
 }
 
@@ -39,8 +40,9 @@
 
 } */
 
-.nav-link {
-    color: rgba(0,159,253,1) !important;
+.nav-link, .dropdown-item {
+   cursor: pointer;
+   
 }
 
 /* .nav-item:nth-child(2) {
@@ -59,6 +61,14 @@
     padding: 0 !important;
 } */
 
-.cursor-pointer {
-    cursor: pointer;
+
+
+.nav-item a {
+    padding: 8px 8px 0 !important;
+    color: rgba(0,159,253,1) !important;
+}
+
+
+a.nav-link.active {
+    padding: 8px 8px 0 !important;
 }

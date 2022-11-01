@@ -1,7 +1,20 @@
 import './Feedback.css'
+
+import { Pagination, Autoplay } from "swiper";
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
 const Feedback = () => {
-  return (
-    <section class="section" id="testimonials">
+  return (<>
+  
+  <section class="section" id="testimonials">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -17,7 +30,24 @@ const Feedback = () => {
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 team-container">
+               
+                
+               
+                
+               
+            </div>
+        </div>
+    </section>
+
+    <Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination, Autoplay]}
+        autoplay
+        className="mySwiper"
+      >
+        <SwiperSlide> <div class="col-12 team-container">
                     <div class="team-item">
                         <div class="team-content">
                             <i><img src="assets/images/testimonial-icon.png" alt="" /></i>
@@ -32,8 +62,9 @@ const Feedback = () => {
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-12 team-container">
+                </SwiperSlide>
+        <SwiperSlide>
+        <div class="col-12 team-container">
                     <div class="team-item">
                         <div class="team-content">
                             <i><img src="assets/images/testimonial-icon.png" alt="" /></i>
@@ -48,8 +79,9 @@ const Feedback = () => {
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-12 team-container">
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="col-12 team-container">
                     <div class="team-item">
                         <div class="team-content">
                             <i><img src="assets/images/testimonial-icon.png" alt="" /></i>
@@ -64,9 +96,30 @@ const Feedback = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div class="col-12 team-container">
+                    <div class="team-item">
+                        <div class="team-content">
+                            <i><img src="assets/images/testimonial-icon.png" alt="" /></i>
+                            <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
+                            <div class="user-image">
+                                <img src="http://placehold.it/60x60" alt="" />
+                            </div>
+                            <div class="team-info">
+                                <h3 class="user-name">David Martin</h3>
+                                <span>Website Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </SwiperSlide>
+       
+      </Swiper>
+  
+  </>
+   
   )
 }
 
