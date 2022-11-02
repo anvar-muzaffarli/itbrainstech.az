@@ -6,6 +6,10 @@ import {useState} from 'react'
 
 import './App.css'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+
 
 // komponentler
 import Navbarr from './components/Navbarr';
@@ -13,15 +17,21 @@ import Welcome from './components/Welcome';
 import CardsSection from './components/CardsSection';
 import About from './components/About';
 
-
-import Counter from './components/Counter';
+import CustomServices from './components/CustomServices';
+import CorporativeServices from './components/CorporativeServices';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Feedback from './Feedback';
 
 function App() {
 
-  
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+
+    AOS.refresh()
+  }, []);
 
   return (
    <div className='main'>
@@ -29,6 +39,8 @@ function App() {
   <Welcome />
   <CardsSection />
   <About />
+  <CustomServices />
+  <CorporativeServices />
 
  
 

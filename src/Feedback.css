@@ -98,3 +98,17 @@
 .team-content p {
   font-style: italic;
 }
+
+.text-center.pt-5.display-1 {
+  font-size: 44px;
+}
+
+.section.colored {
+  padding-top: 0 !important;
+}
+
+.metn {
+  color: #ccc;
+  font-size: 18px;
+  
+}

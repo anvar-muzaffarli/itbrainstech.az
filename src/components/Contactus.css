@@ -20,6 +20,11 @@
     letter-spacing: 0.6px;
     line-height: 26px;
   }
+
+  h1 {
+    font-size: 64px !important;
+    margin-bottom: 35px !important;
+  }
   
   .contact-text p {
     margin-bottom: 28px;
@@ -65,3 +70,18 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
+
+
+  @media(max-width:768px) {
+    .contact-address {
+      display: flex;
+        flex-direction: column-reverse;
+    
+    }
+
+    .contact-details {
+      margin-top: 80px;
+    }
+  }
+
+  

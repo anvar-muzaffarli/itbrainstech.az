@@ -72,3 +72,10 @@
 a.nav-link.active {
     padding: 8px 8px 0 !important;
 }
+
+
+@media(max-width:768px) {
+    .itbtech{
+        width: 80px;
+    }
+}

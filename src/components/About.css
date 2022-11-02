@@ -91,3 +91,19 @@
   .about {
     width: 100%;
   }
+
+  @media(max-width:768px) {
+    .text-center.p-5.display-1 {
+      font-size: 44px;
+    }
+
+    .p-5.mt-5 {
+      padding: 10px !important;
+      margin: 0;
+      
+    }
+
+    .p-5.mt-5 p {
+      text-indent: 50px;
+    }
+  }

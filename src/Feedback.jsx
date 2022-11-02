@@ -14,16 +14,16 @@ import "swiper/css/pagination";
 const Feedback = () => {
   return (<>
   
-  <section class="section" id="testimonials">
+  <section class="section pt-5" id="testimonials">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="zoom-in">
                     <div class="center-heading">
-                        <h2 class="text-center pt-5">What do they say?</h2>
+                        <h2 class="text-center pt-5 display-1">What do they say?</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
-                    <div class="text-center pt-5">
+                    <div class="text-center pt-5 metn">
                         <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
                     </div>
                 </div>

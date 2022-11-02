@@ -1,0 +1,50 @@
+.corporativeimg {
+    width: 50%;
+}
+
+
+
+
+.custom-text {
+    color: rgba(0,159,253,1);
+}
+
+@media(max-width:768px) {
+    .custom-text {
+        font-size: 44px;
+    }
+
+    .col-12.col-md-6.col-lg-4.ml-5.mt-5.d-flex.justify-content-center {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .text-right.display-4.mb-5 {
+        text-align: center !important;
+        font-size: 35px;
+
+    }
+
+    .col-12.col-md-6.col-lg-4.ml-5.d-flex.flex-column.justify-content-center {
+        margin-left: 0 !important;
+    }
+
+    .display-4.pt-5.mt-2.ml-5.mb-5.container {
+        margin-left: 0 !important;
+        font-size: 35px;
+    }
+
+    .ml-5.text-justify {
+        margin-left: 0 !important;
+        padding: 1.25rem;
+        margin-bottom: 20px;
+    }
+
+    .col-12.col-md-6.col-lg-6.mt-5.d-flex.justify-content-end {
+        justify-content: center !important;
+    }
+
+    .col-12.col-md-6.col-lg-6.d-flex.justify-content-end {
+        justify-content: center !important;
+    }
+}

@@ -9,7 +9,7 @@ const ContactUs = () => {
         <div class="row">
             <div class="col-lg-12">
                 <div class="center-heading">
-                    <h2 class="section-title text-center pt-5">Talk To Us</h2>
+                    <h1 class="section-title text-center pt-5 display-1">Talk To Us</h1>
                 </div>
             </div>
             <div class="offset-lg-3 col-lg-6">
@@ -19,14 +19,14 @@ const ContactUs = () => {
             </div>
         </div>
        
-        <div class="row">
+        <div class="row contact-address">
            
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12 contact-details">
                 <h5 class="margin-bottom-30">Keep in touch</h5>
                 <div class="contact-text">
-                    <p>110-220 Quisque diam odio, maximus ac consectetur eu, 10260
+                    <p>AF Business House, 2nd Floor
                     <br />auctor non lorem</p>
-                    <p>You are NOT allowed to re-distribute Softy Pinko template on any template collection websites. Thank you.</p>
+                    <p>You are NOT allowed to re-distribute Anvar Khalid template on any template collection websites. Thank you.</p>
                 </div>
             </div>
             
