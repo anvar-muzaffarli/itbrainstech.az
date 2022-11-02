@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/itbrainstech.az/static/css/main.e82e3978.css",
+    "main.js": "/itbrainstech.az/static/js/main.beaf0327.js",
+    "static/media/web.svg": "/itbrainstech.az/static/media/web.e7bf401f287db1a1426f7d0d0ebdda0b.svg",
+    "static/media/nobackground.png": "/itbrainstech.az/static/media/nobackground.9bc9edbca2daec08f572.png",
+    "static/media/graphic.svg": "/itbrainstech.az/static/media/graphic.3390aa40ded98d483fde8fde576a99a8.svg",
+    "static/media/about-right.svg": "/itbrainstech.az/static/media/about-right.86fcf9387997758eaa92cc385c11a01c.svg",
+    "static/media/digital-marketing.svg": "/itbrainstech.az/static/media/digital-marketing.66303f5db4f984c2d1aaaa1a504aa91e.svg",
+    "static/media/helpdesk.svg": "/itbrainstech.az/static/media/helpdesk.fb045bee0e92cffc9fe8f79d537a92f7.svg",
+    "static/media/system.svg": "/itbrainstech.az/static/media/system.d1955ddacba12ea3f647ec46c1d4560f.svg",
+    "static/media/about-left.svg": "/itbrainstech.az/static/media/about-left.28122b980abfb119f941a276965c13cf.svg",
+    "index.html": "/itbrainstech.az/index.html",
+    "main.e82e3978.css.map": "/itbrainstech.az/static/css/main.e82e3978.css.map",
+    "main.beaf0327.js.map": "/itbrainstech.az/static/js/main.beaf0327.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e82e3978.css",
+    "static/js/main.beaf0327.js"
+  ]
+}
