@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/itbrainstech.az/static/css/main.e82e3978.css",
-    "main.js": "/itbrainstech.az/static/js/main.beaf0327.js",
+    "main.css": "/itbrainstech.az/static/css/main.78356926.css",
+    "main.js": "/itbrainstech.az/static/js/main.69d8b8d3.js",
+    "static/media/bg.svg": "/itbrainstech.az/static/media/bg.8c6d9e25b6de2d9057c9.svg",
     "static/media/web.svg": "/itbrainstech.az/static/media/web.e7bf401f287db1a1426f7d0d0ebdda0b.svg",
     "static/media/nobackground.png": "/itbrainstech.az/static/media/nobackground.9bc9edbca2daec08f572.png",
     "static/media/graphic.svg": "/itbrainstech.az/static/media/graphic.3390aa40ded98d483fde8fde576a99a8.svg",
@@ -11,11 +12,11 @@
     "static/media/system.svg": "/itbrainstech.az/static/media/system.d1955ddacba12ea3f647ec46c1d4560f.svg",
     "static/media/about-left.svg": "/itbrainstech.az/static/media/about-left.28122b980abfb119f941a276965c13cf.svg",
     "index.html": "/itbrainstech.az/index.html",
-    "main.e82e3978.css.map": "/itbrainstech.az/static/css/main.e82e3978.css.map",
-    "main.beaf0327.js.map": "/itbrainstech.az/static/js/main.beaf0327.js.map"
+    "main.78356926.css.map": "/itbrainstech.az/static/css/main.78356926.css.map",
+    "main.69d8b8d3.js.map": "/itbrainstech.az/static/js/main.69d8b8d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e82e3978.css",
-    "static/js/main.beaf0327.js"
+    "static/css/main.78356926.css",
+    "static/js/main.69d8b8d3.js"
   ]
 }
