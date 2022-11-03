@@ -13,16 +13,26 @@ import { useEffect } from 'react'
 
 // komponentler
 import Navbarr from './components/Navbarr';
-import Welcome from './components/Welcome';
-import CardsSection from './components/CardsSection';
-import About from './components/About';
 
-import CustomServices from './components/CustomServices';
+
 import CorporativeServices from './components/CorporativeServices';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Feedback from './Feedback';
 
+// ROUTES
+
+import ServicesPages from './components/ServicesPages'
+
+// routes
+import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
+
+
+// routes komponent
+import HomeRoute from './components/HomeRoute'
+import AboutRouter from './components/AboutRouter'
+import CorporativeRouter from './components/CorporativeRouter'
+import ContactUsRouter from './components/ContactUsRouter'
 function App() {
 
   useEffect(() => {
@@ -35,22 +45,23 @@ function App() {
 
   return (
    <div className='main'>
-  <Navbarr />
-  <Welcome />
-  <CardsSection />
-  <About />
-  <CustomServices />
-  <CorporativeServices />
+   
+    <BrowserRouter>
+    <Navbarr />
 
- 
-
-  <Feedback />
+  <Routes>
+    <Route path='/' exact element={<HomeRoute />} />
+    <Route path='/about' exact element={<AboutRouter />} />
+    <Route path='/custom-services' exact element={<ServicesPages />} />
+    <Route path='/corporative-services' exact element={ <CorporativeRouter />} />
+    <Route path='/contact-us' exact element={<ContactUsRouter />} />
     
+  </Routes>
+
+  
+    <Footer />
  
-
-  <ContactUs />
-
-  <Footer />
+  </BrowserRouter>
    
    </div>
   );

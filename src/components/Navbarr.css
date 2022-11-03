@@ -5,15 +5,16 @@
 
 
 .border-rad {
-    border-radius:80px;
     background-color: #fff;
-    position: fixed !important;
-    width: 95%;
+   
+ 
     box-shadow: 12px 10px 35px rgba(0,0,0,0.1);
     height: 80px;
-    top: 4%;
+   
     z-index: 9999;
-    margin:0 15px;
+
+    margin-top: 30px;
+    
 
 }
 
@@ -73,9 +74,21 @@ a.nav-link.active {
     padding: 8px 8px 0 !important;
 }
 
+.dropdown-item {
+    background-color: transparent !important;
+}
+
 
 @media(max-width:768px) {
     .itbtech{
         width: 80px;
     }
+
+    .show {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        border: none;
+    }
 }
+

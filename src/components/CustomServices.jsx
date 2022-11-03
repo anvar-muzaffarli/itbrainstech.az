@@ -6,7 +6,7 @@ import graphic from '../assets/undraw/services/graphic.svg'
 import helpdesk from '../assets/undraw/services/helpdesk.svg'
 const CustomServices = () => {
   return (
-    <div className='corporative my-5' id='custom'>
+    <div className='corporative my-5 custom-services' id='custom'>
         <h1 className='display-1 p-5 text-center custom-text'>Custom services</h1>
         <div className="row mx-auto">
             <div className="col-12 col-md-6 col-lg-4 ml-5 mt-5  d-flex justify-content-center" data-aos="fade-right">
